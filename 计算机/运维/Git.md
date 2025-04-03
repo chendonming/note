@@ -31,3 +31,11 @@
 - 原来的那个错误 commit 仍然存在于历史记录中，但它的效果被这个新的 "revert commit" 抵消了
 - 执行 git revert HEAD 后，通常会打开编辑器让你填写 revert commit 的提交信息，默认信息通常足够清晰，可以直接保存退出
 - 之后，你可以正常地将这个新的 revert commit 推送到远程仓库：git push
+
+# Github查看被谁star了
+
+```
+{仓库首页地址}/stargazers
+```
+
+stargazers按钮某个版本是存在的，后续按钮没了，但依然可以直接通过链接进入。
